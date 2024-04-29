@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="project.css" />
+    <title>Telescope Data</title>
+  </head>
+  <body class="background">
+    <div class="data">
+      <h2 class="title">Radio Telescope Data Collection</h2>
+      <p class="introPara">
+        This showcases data showcasing Io storms [or lack thereof] from my
+        actual dual dipole setup as compared with the predictive software Radio
+        Jupiter Pro. Both gahtering data of existing storms and non detectable
+        or non existant storms on specific dates are both important as they show
+        sources of interference and ways that detection can change due to
+        outside factors.
+      </p>
+      <br />
+      <br />
+      <br />
+      <table class="table">
+        <caption class="title">
+          Data Gotten From Dual Dipole Telescope Setup
+        </caption>
+        <thead>
+          <tr>
+            
+            <th scope="col">DATE</th>
+            <th scope="col">STORM TYPE [A,B, or C]</th>
+      
+            <th scope="col">DURATION/TIME</th>
+            <th scope="col">IMAGE OF RSS CHART</th>
+            <th scope="col">OBSERVATIONS</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            
+            <td>2/1/24</td>
+            <td>A/C [supposedly]</td>
+            <td>
+              <p>UNSURE (Jupiter not seen) → Pretty sure Solar bands seen</p>
+            </td>
+            
+            <td>
+              <img class="imgTable" src="./images/24.png" alt="" />
+            </td>
+            <td>
+              <p>Solar emissions on top of possible Jupiter, hard to see</p>
+              <br />
+              <p>Imported into skypipe, galactic background hump seen</p>
+            </td>
+          </tr>
+          <tr>
+            
+            <td>4/8/24</td>
+           
+            <td>Correlating with Eclipse</td>
+            
+            <td> 11:19-4:15 PM </td>  
+            </td>
+            <td>
+              <img class="imgTable" src="images/Eclipse.png" alt="eclipse image">
+            </td>
+            <td>Vertical Bands from the eclipse, unsure of what it is, could be correlated</td>
+            
+            
+          </tr>
+          <tr>
+            
+            <td>4/18/24</td>
+            
+            <td>general measurment, Jupiter exiting beam</td>
+            <td>4:00-6:00 PM</td>
+            <td>
+              <img class="imgTable" src="/images/RSSthurs.jpg" alt="photo from RSS">
+            </td>
+            <td>still vertical bands repersenting stations or interference, unsure what it could be</td>
+           
+          </tr>
+          <tr>
+            
+            <td>4/25/24</td>
+            <td>general measurment</td>
+            <td>4:00-5:30 PM</td>
+            <td>
+              <img class="imgTable" src="/images/last.jpg" alt="RSS">
+            </td>
+            <td>Still seeing reflection of interference at 18 mHZ, no clue what this could be dueto overload and needing gain reduction in SDRplay2RSs</td>
+            
+          </tr>
+      
+        </tbody>
+      </table>
+      <br />
+      <br />
+    </div>
+    <br>
+    <div class="data">
+      <h3 class="title">Radio Jove Archive Data</h2>
+      <p class="introPara">
+        Radio Jove Users also have access to the Radio Jove Archive, which can be used to see the spectrograms of others. This is helpful when conducting or doing research, as you can see spectrograms from all different sources, locations, and times. 
+      </p>
+      <br>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">DATE</th>
+          <th scope="col">LOCATION</th>
+          <th scope="col">STORM TYPE [A,B, or C]</th>
+          <th scope="col">OBSERVER</th>
+          <th scope="col">DURATION/TIME [UTC]</th>
+          <th scope="col">IMAGE OF RSS CHART</th>
+          <th scope="col">OBSERVATIONS</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>12/10/23</td>
+          <td>Hermosillo, Sonora, Mexico</td>
+          <td>Io-B</td>
+          <td>Salvador Aguirre</td>
+          <td>1:08:00-1:13:00</td>
+          <td>
+            <img class="imgTable" src="./images/RSP1.png" alt=""/>
+          </td>
+          <td>Recorded on Radio Skypipe</td>
+        </tr>
+        <tr>
+          <td>12/23/23</td>
+          <td>Sharon, GA</td>
+          <td>Io-A</td>
+          <td>Dave Lacko</td>
+          <td>00:04:00-00:05:00</td>
+          <td>
+            <img class="imgTable" src="./images/RSS1.png" alt=""/>
+          </td>
+          <td>These observations look really different than later emissions → hard to see the different emissions 
+          </td>
+        </tr>
+        <tr>
+          <td>1/2/24</td>
+          <td>Cleves, Ohio</td>
+          <td>Io-A</td>
+          <td>John Blasing</td>
+          <td>Weak interspersed 1:00:00 UTC - 1:30:00 UTC</td>
+          <td>
+            <img class="imgTable" src="./images/RSS2.png" alt=""/>
+          </td>
+          <td>Weak, interspersed signals
+            Weaker and harder to spot than typical Io-B or C emissions 
+            </td>
+        </tr>
+        <tr>
+          <td>1/16/24</td>
+          <td>Hermosillo, Sonora, Mexico</td>
+          <td>Io-B</td>
+          <td>Salvador Aguirre</td>
+          <td>6:46:04-6:46:14</td>
+          <td>
+            <img class="imgTable" src="./images/RSS3.png" alt=""/>
+          </td>
+          <td>Really short emission (about 10 seconds) </td>
+        </tr>
+        <tr>
+          <td>1/22/24</td>
+          <td>Cleves, Ohio</td>
+          <td>Io-C</td>
+          <td>John Blasing</td>
+          <td>15:35-15:55 (strong)
+            15:55-16:40 (getting weaker) 
+            </td>
+          <td>
+            <img class="imgTable" src="./images/RSS4.png" alt=""/>
+          </td>
+          <td>Longer emission, Io-C on RJP is typically spends longer time at higher probability, could account for these emissions. Starts out strong, and easy to see, but gets noticeably weaker as time goes on. </td>
+        </tr>
+      </tbody>
+    </table>
+      </tbody>
+      <br>
+      <br>
+    </div>
+    <div class="footer">
+      <a class="home" href="index.html">Home</a>
+      <a class="project" href="myProject.html">My Project</a>
+    </div>
+  </body>
+</html>

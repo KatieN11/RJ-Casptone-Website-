@@ -1,0 +1,86 @@
+.background {
+    background-color:#E5f3fd;
+}
+
+.ProjectTitle, .title, h3 {
+    text-align: center;
+}
+
+
+
+.space {
+    color: #E5f3fd;
+    width: 3%;
+    display: inline-block;
+   
+}
+
+.introduction {
+    width: 50%;
+    margin: auto;
+    border: 2px solid;
+    padding-left: 3px; 
+    border-color: black;
+    
+
+}
+
+
+
+.paragraph {
+    margin: auto;
+    width: 50%;
+    line-height: 1.65;
+    padding: 8px; 
+}
+
+.table {
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-left: 20px ;
+}
+
+.solarTable, th, td {
+    border: 1px solid black; 
+    border-collapse: collapse;
+    
+
+}
+
+
+
+.imgTable {
+    float:center;
+    width:30%;
+  }
+
+
+.image {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+
+
+ .footer {
+    background-color: #d9efff;
+    padding: 60px;
+    text-align: center; 
+  }
+
+  .home, .project, .tips {
+    padding: 10px;
+    font-size: large;
+    font-family: Georgia; 
+    background-color: black;
+    color: white;
+    text-decoration: none;
+  }
+ 
+  .home:hover, .project:hover, .tips:hover {
+    font-size: larger;
+ 
+  }
+
+ 

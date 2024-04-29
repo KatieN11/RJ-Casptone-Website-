@@ -1,0 +1,225 @@
+.background {
+    background-color:#E5f3fd;
+}
+
+.ProjectTitle {
+    text-align: center;
+}
+
+
+
+.space {
+    color: #E5f3fd;
+    width: 3%;
+    display: inline-block;
+   
+}
+
+
+
+
+.img {
+   float: left; 
+    width: 21%;
+   
+
+         
+}
+
+.img1  {
+    border-radius: 50%;
+    height: 170px;
+    width: 170px;
+    margin-top: 25px;
+    margin-left: 40px;
+    float: left;
+    
+   
+}
+
+.img2 {
+    border-radius: 50%;
+    width:250px;
+    height: 175px;
+    float: left; 
+    margin-top: 20px; 
+
+}
+
+
+
+.break {
+    color: #E5f3fd;
+    width: 8%;
+    float: left; 
+   
+    
+}
+
+.spaces {
+    color: #E5f3fd;
+    width: 8% ;
+    float: left; 
+}
+
+.img3  {
+    border-radius: 50%;
+    height: 160px;
+    width: 160px; 
+    float: left; 
+    margin-top: 20px;
+
+}
+
+.spaces2 {
+    color: #E5f3fd;
+    width:13%;
+    float: left;
+     
+}
+
+
+
+.img4 {
+    border-radius: 50%;
+    height: 160px;
+    width: 160px;
+    float: left; 
+   
+    
+
+}
+
+
+
+.introduction {
+    width: 50%;
+    margin: auto;
+    margin-top: 175px; 
+    border: 2px solid;
+    padding-left: 3px; 
+    border-color: black;
+    
+
+}
+
+.p1 {
+ line-height: 1.65;
+}
+
+.intro {
+    text-align: center;
+}
+
+.button1, .button2, .button3, .button4, .button5 {
+    text-align: center;
+    
+}
+
+
+
+.button {
+     
+    color: white;
+    padding: 10px 10px; 
+    
+}
+
+.button:link {
+
+ font-family: Georgia; 
+  background-color: black;
+  text-align: center;
+  text-decoration: none;
+}
+
+.button:hover {
+    font-size: larger; 
+}
+
+
+
+.backgroundResearch{
+    width: 85%;
+   margin: auto;
+   
+    
+}
+
+.backgroundTitle {
+    text-align: center;
+}
+
+.title, .titles {
+    text-align: center ;
+}
+
+.introPara {
+    margin: auto; 
+    width: 50%;
+
+}
+
+.table {
+    width: 80%;
+    margin: auto;
+    padding-top: 10px;
+    padding-left: 3px ;
+}
+
+.title {
+    font-size: larger;
+    padding-bottom: 10px;
+}
+
+.RJPTable, th, td {
+    border: 1px solid black; 
+    border-collapse: collapse;
+
+}
+
+.limitations, .conclusion {
+    margin: auto;
+    
+    
+}
+
+.paragraph {
+    margin: auto;
+    width: 50%;
+    line-height: 1.65;
+    padding: 8px; 
+}
+
+.footer {
+    background-color: #d9efff;
+    padding: 60px;
+    text-align: center; 
+  }
+ 
+  .home, .project, .tips, .backgroundR, .work, .solar {
+    padding: 10px;
+    font-size: large;
+    font-family: Georgia; 
+    background-color: black;
+    color: white;
+    text-decoration: none;
+  }
+ 
+  .home:hover, .project:hover, .tips:hover, .backgroundR:hover, .work:hover, .solar:hover {
+    font-size: larger;
+ 
+  }
+
+  .workCited {
+    padding: 50px;
+    text-align: center;
+  }
+
+
+
+
+  .imgTable {
+    float:center;
+    width:80%;
+  }

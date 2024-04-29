@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solar Eclipse Observation Campaign</title>
+    <link rel="stylesheet" type="text/css" href="solar.css" />
+  </head>
+  <body class="background">
+    <h1 class="ProjectTitle">Solar Eclipse Observing Campaign</h1>
+    <div class="introduction">
+      <p>
+        This is a worldwide radio jove campaing of citizen science to research
+        any possible radio emission changes due to the total solar eclipse,
+        which happened on April 8th across the Americas. As someone in the
+        narrow beam of total elcipse, located in Ohio, I decided to join their
+        citizen science campaign to study any possible effects on radio
+        emission.
+      </p>
+    </div>
+    
+    <br />
+    <div>
+      <h3 class="title">Preparation</h3>
+      <p class="paragraph">
+        to prepare, Radio Jove members had a number of observing practice
+        sessions, which included observations and zoom meetings. Additionally,
+        to prepare we had to take out the phasing cable of our dipoles (so that
+        they were pointed at the zenith), and take multiple data points before
+        and after the eclipse to compare to eclipse data. the data is in the
+        table below.
+      </p>
+      
+      <br />
+      <div class="data">
+        <h3 class="title">Data</h3>
+        <p class="paragraph">
+          Below is the data during the practice sessions as well as the days
+          leading up to, during the eclipse (in bold), and after the eclipse
+        </p>
+      </div>
+      <div class="table">
+        <table class="solarTable">
+          <caption class="title">
+            Solar Eclipse Data
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col">Date</th>
+              <th scope="col">Time</th>
+              <th scope="col">Spectrogram</th>
+              <th scope="col">Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>3/1/24</td>
+              <td>20:00-01:00</td>
+              <td>
+                <img class="imgTable" src="/images/Solar1.jpg" alt="" />
+              </td>
+              <td>
+                <p>Not much color difference</p>
+                <p>Shows antenna connected, sun setting so this is not sun</p>
+                <p>
+                  Not sure if this is lack of signal (is something broken??) →
+                  the F connector was coming off.
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>4/8/24 - ECLIPSE DAY</td>
+              <td>11:19 AM - 4:15 PM (about) </td>
+              <td>
+                <img class="imgTable" src="images/Eclipse.png" alt="entire eclipse">
+                <br>
+                <img class="imgTable" src="/images/totalScreenshot 2024-04-12 111959 (1).png" alt="total eclipse data">
+                <br>
+                <p> the first spectrogram shows entire observation, and the second shows emissions just during totality</p>
+              </td>
+              <td>
+                <p>
+                  Strong emission starting right at the time of totality, noticeable solar flare under sun during totality → could be this , the bands look more like interference, but the timing is very specific, also possible to be radio overload 
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>4/8/24 -ECLIPSE DAY </td>
+              <td>24 hour spectrogram</td>
+              <td>
+                <img class="imgTable" src="/images/SCEclipse.png" alt="Eclipse from SC">
+              </td>
+              <td>From radio jove archive, by JOHN COX in South Carolina, throughout the whole day. Not in the path of totality, but around 19:00 UTC still shows vertical bands stronger than usual, which is strange too because if it was the eclipse, it should have been a little bit earlier depending on the path of the sun. But, we are in the same time zone </td>
+            </tr>
+            <tr>
+              <td>4/8/24 - ECLIPSE DAY</td>
+              <td>11:19-4:15 PM</td>
+              <td>
+                <img class="imgTable" src="/images/RSStoRSP.png" alt="RSP image of RSS graph">
+              </td>
+              <td>SKYPIPE EQUIVALENT OF MY RSS DATA, shows the random vertical bands at the time of totality as well, still unsure what it is. Guesses and analysis below. </td>
+            </tr>
+            <tr>
+            <td>4/18/24</td>
+            <td>4:00-6:00 PM</td>
+            <td>
+              <img class="imgTable" src="/images/RSSthurs.jpg" alt="photo from RSS">
+            </td>
+            <td>still vertical bands repersenting stations or interference, unsure what it could be</td>
+            </tr>
+            <tr>
+              <td>
+                4/18/24
+              </td>
+              <td>
+                16:35-17:15
+              </td>
+              <td>
+                <img class="imgTable" src="/images/RSP418.png" alt="picture of RSP">
+              </td>
+              <td>from the ARCHIVE of SALVADOR AGUIRRE from SONORA MEXICO, shows general solar on RSP after the eclipse, (10 days, typical solar)</td>
+            </tr>
+           
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <br />
+    <div class="observations">
+      <br>
+      <h3>Observations</h3>
+      <br>
+      <p class="paragraph">
+        1. Solar Flare noticed at the bottom of the eclipse during totality - wondering how that could impact solar readings from the telescope</p>
+        <p class="paragraph">2. noticeable temperature drops</p>
+        <p class="paragraph">3. light level between 99% coverage and 100% coverage wildly different</p>
+      </p>
+      <p class="paragraph">
+        4. the vertical bands from right around the time of totality are strange. It does not look like solar. Could it be RFI or Ionosphere? If its RFI, why now, why during totality? Why would there be similar bands on the graph from SC at the same time if the eclipse passed them first? It could be radio overload, why and how? See analysis and possible reasons for this down below. 
+      </p>
+      <br>
+      <h3>Analysis</h3>
+      <br>
+      <p class="paragraph">
+        A possible reason for this strange interference during Eclipse totality is ionospheric interference. According to NASA, totality could cause ionospheric anomalies and a different distribution in electrons, which can cause discrepancies and issues with radio wave propagation cuasing signal fading, absorption, and refraction. However, many of these reasons would cause weaker signals, not stronger. So why is this correlated with totality? Another possible cause is general stations or interference coming from power lines, satellites, or electrical equipment. My question then is, why on intervals, why am specific times? Is it galactic background hump? Why are the signals mirrored below 18 mHZ, if its an overload, overloaded with what? Stations? This is science, every 'answer','hypothesis', or research just leads to more unknowns and more questions.  
+      </p>
+      <br>
+      </div>   
+      <img class="image" src="./images/solarEclipse.png" alt="img of totality">  
+    <br/> 
+    <br />
+    
+    <div class="footer">
+      <a class="home" href="index.html">Home</a>
+      <a class="project" href="myProject.html">My Project</a>
+      <a class="tips" href="tips.html">Tips and Tricks</a>
+    </div>
+  </body>
+</html>
